@@ -10,6 +10,14 @@ import AppLogo from "~/components/AppLogo.vue";
 export default {
   components: {
     AppLogo
+  },
+  metaInfo: {
+    title: "About!!",
+    titleTemplate: "%s - Yay!!!!!",
+    htmlAttrs: {
+      lang: "ko",
+      amp: true
+    }
   }
 };
 </script>
