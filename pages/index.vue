@@ -1,8 +1,6 @@
 <template>
   <section class="container">
-    <div>
-      <app-logo />Home
-    </div>
+    <div><app-logo />Home</div>
   </section>
 </template>
 
@@ -13,17 +11,10 @@ export default {
   components: {
     AppLogo
   },
-  metaInfo: {
-    title: "Home!!",
-    titleTemplate: "%s - Ol~Yay!!!!!",
-    htmlAttrs: {
-      lang: "ko",
-      amp: true
-    }
+  head: {
+    title: "Home"
   }
 };
 </script>
 
-<style>
-</style>
-
+<style></style>
