@@ -6,17 +6,10 @@
 
 <script>
 export default {
-  metaInfo: {
-    title: "About!!",
-    titleTemplate: "%s - Yay!!!!!",
-    htmlAttrs: {
-      lang: "ko",
-      amp: true
-    }
+  head: {
+    title: "About"
   }
 };
 </script>
 
-<style>
-</style>
-
+<style></style>
